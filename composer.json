@@ -1,0 +1,23 @@
+{
+    "name": "jonnyrain/xmpush",
+    "description": "xiaomi push server v2.2.21",
+    "keywords": ["mipush", "xmpush"],
+    "license": "MIT",
+    "homepage": "https://github.com/jonnyRain/xmpush",
+    "authors": [
+        {
+            "name": "jonnyRain",
+            "email": "jonathanrain@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.6.4"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "xmpush\\": "xmpush/"
+        }
+    }
+}
