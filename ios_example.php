@@ -22,6 +22,7 @@ $message = new IOSBuilder();
 $message->description($desc);
 $message->soundUrl('default');
 $message->badge('4');
+$message->timeToLive(604800000); //可选项, 消息的生命周期, 若用户离线, 设置消息在服务器保存的时间, 单位: ms
 $message->extra('payload', $payload);
 $message->build();
 
