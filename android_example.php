@@ -26,7 +26,8 @@ $desc = '这是一条mipush推送消息';
 $payload = '{"test":1,"ok":"It\'s a string"}';
 
 $sender = new Sender();
-// $sender->setRegion(Region::China);// 支持海外
+// $sender->setRegion(Region::China);// 发送区域为中国国内
+// $sender->setRegion(Region::Other); //发送区域为海外
 
 // message1 演示自定义的点击行为
 $message1 = new Builder();
